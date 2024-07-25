@@ -11,6 +11,7 @@ const axios = require('axios');
 const JWT_SECRET =  "kirat_servers"
 
 // Middleware for parsing request bodies
+
 app.use(bodyParser.json());
 app.use("/admin", adminRouter)
 app.use("/administrator", administratorRouter)
